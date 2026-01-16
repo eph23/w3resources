@@ -21,3 +21,10 @@ function string_to_array(str) {
 }
 
 console.log(string_to_array("Robin Singh")); // ["Robin", "Singh"]
+
+/* ================= SOLUTION 2================= */
+function string_to_array_2(str) {
+    return str.split(" ");
+}
+
+console.log(string_to_array_2("Robin Singh")); // ["Robin", "Singh"]
